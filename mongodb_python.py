@@ -1,4 +1,5 @@
 import pymongo
+#mongodb client
 db=pymongo.MongoClient("mongodb://localhost:27017/")
 studdb=db.school
 studcol=studdb.student
